@@ -9,6 +9,7 @@
     "dev": "tsx watch src/server.ts",
     "knex": "node --no-warnings --import tsx ./node_modules/knex/bin/cli.js",
     "lint": "eslint src --ext .ts --fix",
+    "lint:db": "eslint db --ext .ts --fix",
     "lint:test": "eslint test --ext .ts --fix",
     "build": "tsup src --out-dir build",
     "test": "vitest"
